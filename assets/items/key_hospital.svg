@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>key_hospital</title>
+  <g stroke="#141119" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="16" cy="22" r="9" fill="none" stroke-width="7"/>
+    <circle cx="16" cy="22" r="9" fill="none" stroke="#e9e4d6" stroke-width="4"/>
+    <path d="M22.5 27.5 L48 48" stroke-width="7"/>
+    <path d="M22.5 27.5 L48 48" stroke="#e9e4d6" stroke-width="3.6"/>
+    <path d="M48 48l6 4.4" stroke-width="6.6"/>
+    <path d="M48 48l6 4.4" stroke="#e9e4d6" stroke-width="3.2"/>
+    <path d="M39 45.5l-4 8.4M46 51l-4 8.4" stroke-width="6"/>
+    <path d="M39 45.5l-4 8.4M46 51l-4 8.4" stroke="#e9e4d6" stroke-width="3"/>
+  </g>
+  <path d="M41 8h17v12H41z" fill="#8f3a34" stroke="#141119" stroke-width="2"/>
+  <path d="M44 11h11v2H44zM44 15h7v2h-7z" fill="#e6d8b8" opacity="0.75"/>
+  <circle cx="41" cy="14" r="1.6" fill="#141119"/>
+  <circle cx="16" cy="22" r="2.4" fill="#141119"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>key_steel</title>
+  <circle cx="16.1" cy="21" r="8.5" fill="none" stroke="#141119" stroke-width="7"/>
+  <circle cx="16.1" cy="21" r="8.5" fill="none" stroke="#b9c2cc" stroke-width="4"/>
+  <path d="M12.6 14.2 A8.5 8.5 0 0 0 9.5 21" fill="none" stroke="#e6ecf2" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M21.7 23.3 L46.9 43.6" stroke="#141119" stroke-width="7" stroke-linecap="round"/>
+  <path d="M21.7 23.3 L46.9 43.6" stroke="#b9c2cc" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M46.9 43.6 L53.1 48.6" stroke="#141119" stroke-width="6.4" stroke-linecap="round"/>
+  <path d="M46.9 43.6 L53.1 48.6" stroke="#b9c2cc" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M31.4 51.5 L36.4 41.6" stroke="#141119" stroke-width="6" stroke-linecap="round"/>
+  <path d="M31.4 51.5 L36.4 41.6" stroke="#b9c2cc" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M40.9 50.1 L46 41.4" stroke="#141119" stroke-width="5.6" stroke-linecap="round"/>
+  <path d="M40.9 50.1 L46 41.4" stroke="#b9c2cc" stroke-width="3" stroke-linecap="round"/>
+  <path d="M25.4 27.2 L28.8 30.2" stroke="#e6ecf2" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M44.3 42.6 L41.5 40.2" stroke="#e6ecf2" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="16.1" cy="21" r="2.5" fill="#141119"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="128" viewBox="0 0 96 128">
+  <title>Zoya - timekeeper of the sorting plant</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- boots -->
+    <path fill="#1b1a1e" d="M37 112h10v11H37z"/>
+    <path fill="#1b1a1e" d="M49 112h10v11H49z"/>
+
+    <!-- dark skirt and stockings -->
+    <path fill="#2a2830" d="M38 70h20l6 34H32z"/>
+    <path fill="#1b1a20" d="M41 84h5v32h-5z"/>
+    <path fill="#1b1a20" d="M50 84h5v32h-5z"/>
+
+    <!-- neat grey blouse with a high collar -->
+    <path fill="#8b8f8c" d="M35 38c-4 5-6 14-6 24l2 14h34l2-14c0-10-2-19-6-24z"/>
+    <path fill="#737774" stroke="none" d="M31 62l2 14h6l-2-14c0-8 0-15 2-20-4 5-7 12-8 20z"/>
+    <path fill="#a2a6a2" stroke="none" d="M39 40c-2 6-3 15-3 23l1 13h4l-1-13c0-9 1-18 3-23z"/>
+    <path fill="#d8d2c2" d="M42 34h12v6H42z"/>
+    <path fill="#3a3d3b" d="M45 40h6l-1 36h-4z"/>
+
+    <!-- arms -->
+    <path fill="#8b8f8c" d="M35 40l-7 5-3 24 7 2 4-24z"/>
+    <path fill="#8b8f8c" d="M61 40l7 5 3 24-7 2-4-24z"/>
+    <path fill="#cfa480" d="M24 69l8 2-1 12-8-2z"/>
+    <path fill="#cfa480" d="M72 69l-8 2 1 12 8-2z"/>
+
+    <!-- ledger held against the chest -->
+    <path fill="#5a3f2a" d="M38 59h20v14H38z"/>
+    <path fill="#d8d0b8" d="M40 60h16v12H40z"/>
+    <path fill="none" stroke="#6f6248" stroke-width="1" d="M43 62h10M43 65h10M43 68h7"/>
+
+    <!-- neck and head -->
+    <path fill="#c49a79" d="M43 28h10v10H43z"/>
+    <ellipse cx="48" cy="24" rx="10" ry="11" fill="#ddb491"/>
+    <path fill="#c49a79" stroke="none" d="M38 19c3-4 6-6 10-6s7 2 10 6c-2 5-5 7-10 7s-8-2-10-7z"/>
+
+    <!-- glasses and thin mouth -->
+    <ellipse cx="43.4" cy="24" rx="2.4" ry="1.8" fill="#e8e2d4"/>
+    <ellipse cx="52.6" cy="24" rx="2.4" ry="1.8" fill="#e8e2d4"/>
+    <circle cx="43.6" cy="24.2" r="1" fill="#4a423a" stroke="none"/>
+    <circle cx="52.4" cy="24.2" r="1" fill="#4a423a" stroke="none"/>
+    <rect x="39" y="21.6" width="9" height="5.6" rx="1" fill="none" stroke="#b8b4a8" stroke-width="1"/>
+    <rect x="48" y="21.6" width="9" height="5.6" rx="1" fill="none" stroke="#b8b4a8" stroke-width="1"/>
+    <path fill="none" stroke="#b8b4a8" stroke-width="1" d="M48 23.8h0M57 23.8h2"/>
+    <path fill="none" stroke="#6b4032" stroke-width="1.3" d="M45 30h6"/>
+
+    <!-- tight bun -->
+    <path fill="#3a2c25" d="M38 22c-1-8 4-13 10-13s11 5 10 13c-2-4-4-6-6-7l-2 3-2-3-2 3-3-2c-2 2-4 4-5 6z"/>
+    <circle cx="48" cy="6" r="6" fill="#3a2c25"/>
+    <path fill="#4c3a30" stroke="none" d="M45 3c2-2 5-2 7 0-1 1-3 2-4 2s-2-1-3-2z"/>
+  </g>
+</svg>

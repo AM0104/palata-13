@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="128" viewBox="0 0 96 128">
+  <title>Доктор Барский</title>
+  <defs>
+    <radialGradient id="pen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe2a1" stop-opacity="0.75"/><stop offset="0.5" stop-color="#e0a94f" stop-opacity="0.22"/><stop offset="1" stop-color="#e0a94f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- shadow -->
+    <ellipse cx="48" cy="124" rx="20" ry="4" fill="#05090a" opacity="0.5" stroke="none"/>
+    <!-- legs -->
+    <path d="M40 84h8v38h-8z" fill="#232725"/>
+    <path d="M50 84h8v38h-8z" fill="#1b1f1d"/>
+    <path d="M34 118h16v8H36c-2 0-3-1.4-3-3v-2c0-1.8 0-3 1-3z" fill="#0c0f0e"/>
+    <path d="M48 118h16c1 0 2 1.2 2 3v2c0 1.6-1 3-3 3H48z" fill="#0a0c0b"/>
+    <path d="M34 124h17v3H34zM48 124h17v3H48z" fill="#2b302d" stroke="none"/>
+    <!-- coat, long and narrow -->
+    <path d="M36 42c-4 0-7 3-8 8l-5 50 8 2 6-44 3 44h16l3-44 6 44 8-2-5-50c-1-5-4-8-8-8z" fill="#a9aa9b"/>
+    <path d="M34 46c-3 8-5 18-6 28l-3 24 5 1 5-30 3 14V46z" fill="#8e9082" stroke="none"/>
+    <path d="M62 46c3 8 5 18 6 28l3 24-5 1-5-30-3 14V46z" fill="#7f8175" stroke="none"/>
+    <path d="M42 44c-2 18-2 38 0 54h12c2-16 2-36 0-54z" fill="#252a27"/>
+    <path d="M43 44l5 18 5-18z" fill="#d6d6c6"/>
+    <path d="M44 47l4 13 4-13z" fill="#202522"/>
+    <!-- coat lapels -->
+    <path d="M40 42l-6 10 6 4 4-8zM56 42l6 10-6 4-4-8z" fill="#c8c8b8"/>
+    <path d="M40 44l6 6-4 5-5-3zM56 44l-6 6 4 5 5-3z" fill="#e0e0cf" opacity="0.55" stroke="none"/>
+    <!-- arms -->
+    <path d="M29 48l-5 4-4 24 6 3 5-22z" fill="#9c9e8f"/>
+    <path d="M67 48l5 4 4 24-6 3-5-22z" fill="#8b8d80"/>
+    <path d="M20 75l6 3-2 8-6-3z" fill="#b7b8a8"/>
+    <!-- hand and penlight -->
+    <path d="M20 86c2-2 5-2 7 0 2 2 2 5 0 7s-5 2-7 0-2-5 0-7z" fill="#b3a892"/>
+    <path d="M21 89l-6-2 1-4 7 2z" fill="#5d5a4b"/>
+    <path d="M15 83l-3-1 1-3 3 1z" fill="#ffe6a8"/>
+    <circle cx="11" cy="81" r="16" fill="url(#pen)" opacity="0.65"/>
+    <!-- neck -->
+    <path d="M44 30h8v8h-8z" fill="#b1a894"/>
+    <!-- head -->
+    <ellipse cx="48" cy="22" rx="10" ry="12" fill="#b8b09c"/>
+    <path d="M38 20c0-9 4-14 10-14s10 5 10 14c0-5-3-8-6-9-2 1-6 1-8 0-3 1-6 4-6 9z" fill="#8a8b80"/>
+    <path d="M38 20c-1 4-1 8 1 12l2-1c-1-3-1-7 0-10z" fill="#7c7d72"/>
+    <path d="M58 20c1 4 1 8-1 12l-2-1c1-3 1-7 0-10z" fill="#6f7066"/>
+    <!-- gaunt face -->
+    <path d="M40 23c1 6 4 9 8 9s7-3 8-9c0 8-3 12-8 12s-8-4-8-12z" fill="#9a927f" stroke="none"/>
+    <ellipse cx="44" cy="21" rx="2.4" ry="2" fill="#0d1211" stroke="none"/>
+    <ellipse cx="52" cy="21" rx="2.4" ry="2" fill="#0d1211" stroke="none"/>
+    <circle cx="44" cy="21" r="0.8" fill="#d9e6da" stroke="none"/>
+    <circle cx="52" cy="21" r="0.8" fill="#d9e6da" stroke="none"/>
+    <path d="M40 17c2-2 5-2 7-1M49 16c3-1 6 0 7 2" fill="none" stroke="#5f5849" stroke-width="1.4"/>
+    <path d="M48 22v5l-2 2" fill="none" stroke="#7b7263" stroke-width="1.3"/>
+    <path d="M44 31c3 1 6 1 8 0" fill="none" stroke="#6b5c50" stroke-width="1.4"/>
+    <!-- glasses -->
+    <g fill="none" stroke="#2c322f" stroke-width="1.2">
+      <circle cx="44" cy="21" r="4.4"/><circle cx="52" cy="21" r="4.4"/><path d="M48.4 20.6h-.8M39.6 20l-2-1M56.4 20l2-1"/>
+    </g>
+    <!-- badge -->
+    <path d="M58 52h6v9h-6z" fill="#d0d0c0" stroke="#5c6057" stroke-width="1"/>
+    <path d="M59 54h4v2h-4z" fill="#465046" stroke="none"/>
+  </g>
+</svg>

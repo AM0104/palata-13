@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>badge</title>
+  <g stroke="#141119" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="14" y="8" width="36" height="48" rx="3" fill="#e2dcc9"/>
+    <rect x="18" y="14" width="18" height="22" fill="#8b9a92"/>
+    <circle cx="27" cy="22" r="5" fill="#cbb09b" stroke="none"/>
+    <path d="M20 36c1-5 4-7 7-7s6 2 7 7z" fill="#3d4b46" stroke="none"/>
+    <path d="M40 16h6v4h-6zM40 23h6v3h-6zM40 29h6v3h-6z" fill="#7a7463" stroke="none"/>
+    <path d="M19 42h26v8H19z" fill="#a34a42" opacity="0.8" stroke="none"/>
+    <path d="M28 4h8v6h-8z" fill="#8e8a7a"/>
+  </g>
+  <path d="M20 44h22v2H20z" fill="#e6d8b8" opacity="0.7"/>
+</svg>

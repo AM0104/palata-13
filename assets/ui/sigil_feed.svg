@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Feed sigil</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M8 22h30a12 12 0 0 1 0 24H22"/>
+    <path d="M14 16l-6 6 6 6M14 40l-6 6 6 6"/>
+    <path d="M30 22v24"/>
+    <path d="M50 10v8M54 14h-8"/>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="128" viewBox="0 0 96 128">
+  <title>Vera - up (back view)</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- boots -->
+    <path fill="#17151b" d="M36 113h11v10H36c-1.5 0-2.3-1.6-2.3-4s.8-4 2.3-4z"/>
+    <path fill="#17151b" d="M49 113h11c1.5 0 2.3 1.6 2.3 4s-.8 4-2.3 4H49z"/>
+
+    <!-- trousers -->
+    <path fill="#2c3038" d="M39 66h8v49h-8z"/>
+    <path fill="#232730" d="M49 66h8v49h-8z"/>
+    <path fill="none" stroke="#17151b" stroke-width="1.2" d="M47.5 68v44"/>
+
+    <!-- jacket back -->
+    <path fill="#c46a2a" d="M33 34c-3 5-4 14-4 24l2 28h34l2-28c0-10-1-19-4-24z"/>
+    <path fill="#a55522" stroke="none" d="M29 58l2 28h5l-2-28c0-9 0-16 2-22-4 5-6 13-7 22z"/>
+    <path fill="#d47b39" stroke="none" d="M36 35c-2 6-3 15-3 25l1 24h4l-1-24c0-10 1-19 3-25z"/>
+    <path fill="#e8dfc8" d="M30.4 48.5h35.2v5H30.4z"/>
+    <path fill="#e8dfc8" d="M29.8 77h36.4v5H29.8z"/>
+    <path fill="#bdb49d" stroke="none" d="M30.4 51.4h35.2v1.2H30.4zM29.8 79.9h36.4v1.2H29.8z"/>
+    <!-- backpack / air bottle -->
+    <path fill="#3d4950" d="M40 40h16v24H40z"/>
+    <path fill="#56646c" stroke="none" d="M42 42h4v20h-4z"/>
+    <path fill="none" stroke="#222a2f" stroke-width="1.3" d="M48 41v22"/>
+    <path fill="none" stroke="#5c351d" stroke-width="1.2" d="M35 38l-1 49M61 38l1 49"/>
+
+    <!-- arms and gloves -->
+    <path fill="#c46a2a" d="M33 36l-7 4-3 26 7 2 4-26z"/>
+    <path fill="#c46a2a" d="M63 36l7 4 3 26-7 2-4-26z"/>
+    <path fill="#3a3f47" d="M22 62l8 2-1 13-8-2z"/>
+    <path fill="#3a3f47" d="M74 62l-8 2 1 13 8-2z"/>
+
+    <!-- neck and back of head -->
+    <path fill="#c99b7f" d="M44 27h8v9h-8z"/>
+    <ellipse cx="48" cy="22" rx="10" ry="11" fill="#e2b595"/>
+    <path fill="#2e211d" d="M38 22c0-8 5-13 10-13s10 5 10 13v8c-3 2-6 3-10 3s-7-1-10-3z"/>
+    <path fill="#3b2a22" stroke="none" d="M40 12c2-2 5-3 8-3-4 1-6 3-7 6z"/>
+
+    <!-- hard hat from behind -->
+    <path fill="#e0b13a" d="M34 15c0-7 6-11 14-11s14 4 14 11c-2-3-6-5-14-5s-12 2-14 5z"/>
+    <path fill="#f0c65a" stroke="none" d="M39 7c3-2 6-3 9-3-5 1-8 4-9 8-1 2-1 4-1 6l-3 0c0-5 1-9 4-11z"/>
+    <path fill="none" stroke="#8c6a1d" stroke-width="1.3" d="M33.6 15.2h28.8"/>
+    <path fill="#8c6a1d" d="M44 9h8v3h-8z"/>
+    <path fill="none" stroke="#6f5517" stroke-width="1.2" d="M41 12h14"/>
+  </g>
+</svg>

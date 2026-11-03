@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Gauge sigil</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <circle cx="32" cy="34" r="19"/>
+    <path d="M18 34a14 14 0 0 1 28 0"/>
+    <path d="M32 34l10-9"/>
+    <circle cx="32" cy="34" r="3" fill="#d8d2c2"/>
+    <path d="M32 11v4M12 34h4M48 34h4"/>
+  </g>
+</svg>

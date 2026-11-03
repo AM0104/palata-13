@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>inhaler</title>
+  <g stroke="#141119" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="20" y="10" width="24" height="34" rx="6" fill="#c3cfc8"/>
+    <rect x="20" y="10" width="24" height="34" rx="6" fill="none" stroke="#7d8d86" stroke-width="2"/>
+    <path d="M20 24h24v10H20z" fill="#8fa39a" opacity="0.8"/>
+    <path d="M22 44h20v8H22z" fill="#b6c3bb"/>
+    <path d="M26 52h12v6H26z" fill="#5f6e66"/>
+    <path d="M27 18h10v8H27z" fill="#e8efe9" opacity="0.85"/>
+    <path d="M29 20v4M33 20v4M37 20v4" stroke="#8fa39a" stroke-width="1.4"/>
+    <circle cx="32" cy="30" r="4" fill="#d9a441" opacity="0.8" stroke="#141119" stroke-width="1.5"/>
+  </g>
+</svg>

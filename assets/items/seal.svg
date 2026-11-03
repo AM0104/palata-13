@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Seal</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="32" cy="32" r="22" fill="#8a6a3a"/>
+    <circle cx="32" cy="32" r="15" fill="#b08a4e"/>
+    <circle cx="32" cy="32" r="7" fill="#5a4324"/>
+    <path fill="none" stroke="#5a4324" stroke-width="2" d="M32 18v6M32 40v6M18 32h6M40 32h6"/>
+    <path fill="#c0392b" d="M44 14l6 4-4 6-6-4z"/>
+  </g>
+</svg>

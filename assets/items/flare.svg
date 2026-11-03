@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Signal flare</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#8b3b2c" d="M27 25h10v31H27z"/>
+    <path fill="#b95236" d="M27 25h4v31h-4z"/>
+    <path fill="#3a3f3a" d="M25 22h14v6H25z"/>
+    <path fill="#e8b55c" d="M24 21l8-11 8 11z"/>
+    <path fill="#f6dc99" d="M29 18l3-6 3 6z"/>
+    <path fill="#d9cfb8" d="M31 56h2v4h-2z"/>
+    <path fill="none" stroke="#f0c46e" stroke-width="1.5" d="M19 17l-4-3M45 17l4-3M15 25l-5-1M49 25l5-1"/>
+  </g>
+</svg>

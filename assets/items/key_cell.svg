@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>key_cell</title>
+  <circle cx="19.5" cy="16.5" r="7" fill="none" stroke="#141119" stroke-width="2"/>
+  <circle cx="19.5" cy="16.5" r="7" fill="none" stroke="#cfc7b0" stroke-width="2.2" opacity="0.95"/>
+  <path d="M15.3 11.8 A7 7 0 0 0 14.5 20.9" fill="none" stroke="#a9a496" stroke-width="1.7" stroke-linecap="round"/>
+  <circle cx="19.5" cy="16.5" r="2.1" fill="#e9e4d6" stroke="#141119" stroke-width="1.8"/>
+  <path d="M25 22.4 L48.4 47.1" stroke="#141119" stroke-width="7.2" stroke-linecap="round"/>
+  <path d="M25 22.4 L48.4 47.1" stroke="#c6a45a" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M48 46.7 L55.6 44.9 L56.6 50.7 L48.8 52.7 Z" fill="#c6a45a" stroke="#141119" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M48.8 50.1 L56 48.3" stroke="#141119" stroke-width="1.7" stroke-linecap="round" opacity="0.8"/>
+  <path d="M28.4 25.6 L43.9 43.8" stroke="#e9e4d6" stroke-width="1.7" stroke-linecap="round" opacity="0.7"/>
+  <path d="M43.4 51.6 L48 46.7" stroke="#c6a45a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M38.8 54.4 L49.4 51.9" stroke="#141119" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>heart</title>
+  <path d="M24 42 C17.5 36.2 6 28.5 6 19.5 C6 12.4 11.4 7 17.8 7 C20.7 7 22.9 8.2 24 9.8 C25.1 8.2 27.3 7 30.2 7 C36.6 7 42 12.4 42 19.5 C42 28.5 30.5 36.2 24 42 Z" fill="#b0333c" stroke="#141119" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="15.4" cy="17.6" rx="4.6" ry="3.2" fill="#d1505a" transform="rotate(-32 15.4 17.6)"/>
+  <path d="M9.4 22.4 C10.6 28.2 15 33.2 20.2 37.6" fill="none" stroke="#7d2027" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+  <path d="M36.6 13.4 C38.3 15.4 39.2 17.7 39.2 20.2" fill="none" stroke="#7d2027" stroke-width="1.6" stroke-linecap="round" opacity="0.55"/>
+</svg>

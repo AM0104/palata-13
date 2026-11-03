@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="128" viewBox="0 0 96 128">
+  <title>Dispatcher - the voice of the Kiel-9 system</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- boots -->
+    <path fill="#121216" d="M36 112h11v11H36z"/>
+    <path fill="#121216" d="M49 112h11v11H49z"/>
+
+    <!-- long rubber coat -->
+    <path fill="#20262a" d="M31 39c-5 6-7 16-7 28l2 25h44l2-25c0-12-2-22-7-28z"/>
+    <path fill="#171c1f" stroke="none" d="M26 67l2 25h7l-2-25c0-10 0-18 2-23-4 5-8 13-9 23z"/>
+    <path fill="#2d353a" stroke="none" d="M36 41c-2 8-3 17-3 27l1 22h5l-1-22c0-10 1-19 3-27z"/>
+    <path fill="#3a4449" d="M45 39h6l-1 52h-4z"/>
+    <path fill="#4e5a60" d="M31 48h34v4H31z"/>
+    <path fill="none" stroke="#3f4a50" stroke-width="1.3" d="M40 42l-2 48M56 42l2 48"/>
+
+    <!-- arms -->
+    <path fill="#20262a" d="M31 41l-8 5-3 26 7 2 5-26z"/>
+    <path fill="#20262a" d="M65 41l8 5 3 26-7 2-5-26z"/>
+    <path fill="#2f3a3f" d="M20 71l8 2-1 13-8-2z"/>
+    <path fill="#2f3a3f" d="M76 71l-8 2 1 13 8-2z"/>
+
+    <!-- collar and hose -->
+    <path fill="#39444a" d="M37 33h22v10H37z"/>
+    <path fill="none" stroke="#4c565a" stroke-width="4" d="M61 38c9 4 11 14 6 19-4 4-10 3-12-1"/>
+
+    <!-- head with gas mask -->
+    <ellipse cx="48" cy="22" rx="11" ry="12" fill="#5a6166"/>
+    <path fill="#4b5358" stroke="none" d="M38 16c3-4 6-6 10-6s7 2 10 6c-2 5-5 7-10 7s-8-2-10-7z"/>
+    <!-- round mask lenses -->
+    <circle cx="43" cy="21" r="4.4" fill="#1a1e21"/>
+    <circle cx="53" cy="21" r="4.4" fill="#1a1e21"/>
+    <circle cx="43" cy="21" r="3.2" fill="#3c4a4c" stroke="none"/>
+    <circle cx="53" cy="21" r="3.2" fill="#3c4a4c" stroke="none"/>
+    <circle cx="42.2" cy="20.2" r="1.2" fill="#9fb0a8" stroke="none"/>
+    <circle cx="52.2" cy="20.2" r="1.2" fill="#9fb0a8" stroke="none"/>
+    <!-- filter canister -->
+    <path fill="#3b4245" d="M44 27h8v7h-8z"/>
+    <path fill="#6f7a78" stroke="none" d="M45 28h2v5h-2z"/>
+    <path fill="none" stroke="#252b2e" stroke-width="1.2" d="M44 30h8M44 32h8"/>
+    <!-- hose from canister -->
+    <path fill="none" stroke="#3b4245" stroke-width="3" d="M48 34c0 8-2 12-6 15"/>
+    <!-- helmet -->
+    <path fill="#394144" d="M35 15c0-7 6-11 13-11s13 4 13 11c-3-3-7-5-13-5s-10 2-13 5z"/>
+    <path fill="#fff3c4" d="M43 7h10v4H43z"/>
+    <path fill="none" stroke="#2a3033" stroke-width="1.3" d="M34.6 15h26.8"/>
+
+    <!-- speaker box on the belt -->
+    <path fill="#3b4245" d="M58 66h13v11H58z"/>
+    <circle cx="64.5" cy="71.5" r="3" fill="#1c2022"/>
+    <circle cx="64.5" cy="71.5" r="1.3" fill="#8f9a96" stroke="none"/>
+  </g>
+</svg>

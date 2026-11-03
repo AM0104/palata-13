@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="128" viewBox="0 0 96 128">
+  <title>Миша Соколов — вид спереди</title>
+  <defs>
+    <radialGradient id="torchGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd88f" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#e9a94e" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#e9a94e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- sneakers, worn red -->
+    <path fill="#a83835" d="M36 112h11v7H36c-2 0-3-1.2-3-3v-1c0-1.8 1-3 3-3z"/>
+    <path fill="#932f2d" d="M49 112h11c2 0 3 1.2 3 3v1c0 1.8-1 3-3 3H49z"/>
+    <path fill="#d6d0bd" d="M33 119h15v4H33z"/>
+    <path fill="#d6d0bd" d="M48 119h15v4H48z"/>
+    <path fill="#ece7d7" d="M34 119h13v1.6H34zM49 119h13v1.6H49z"/>
+    <path fill="none" stroke="#6f2422" stroke-width="1.2" d="M36.5 113.4h7M50 113.4h7"/>
+    <path fill="none" stroke="#e6e0cd" stroke-width="1.3" d="M42 114.6l1.4 3M45 114.4l1.4 3M54.5 114.6l-1.4 3M51.5 114.4l-1.4 3"/>
+    <path fill="#c9c3b0" d="M35 117h4v2.4h-4zM57 117h4v2.4h-4z"/>
+
+    <!-- skinny jeans -->
+    <path fill="#2f3a45" d="M39 69h8v45h-8z"/>
+    <path fill="#27313b" d="M49 69h8v45h-8z"/>
+    <path fill="#3b4752" d="M38.5 105h8.7v8h-8.7z"/>
+    <path fill="#333e49" d="M48.8 105h8.7v8h-8.7z"/>
+    <path fill="none" stroke="#1a2229" stroke-width="1.1" d="M47.4 71v41M49 71v41"/>
+    <path fill="none" stroke="#1e272f" stroke-width="1" d="M40.5 90c2 1 3 1 5 0M52 84c1.5 1 3 1 5 0"/>
+    <path fill="#3a4651" stroke="none" d="M39.5 72h1.6v16h-1.6zM49.5 92h1.5v13h-1.5z"/>
+
+    <!-- hoodie body -->
+    <path fill="#2e4a49" d="M34 40c-2.5 7-3 16-1.5 23L34 76h28l1.5-13c1.5-7 1-16-1.5-23z"/>
+    <path fill="#253d3c" stroke="none" d="M34.4 42c-2 7-2.4 15-1 22l1.4 10h5l-1.7-10c-1.2-7-.8-15 1-21z"/>
+    <path fill="#3a5b59" stroke="none" d="M39.5 41.5c-1.5 6-1.6 14-.6 21l1.6 11h3.2l-1.6-11c-1-7-.9-15 .7-21z"/>
+    <path fill="#223a39" d="M33.5 69h29v7h-29z"/>
+    <path fill="none" stroke="#1a2f2e" stroke-width="1.1" d="M37 69.5v6M41 69.5v6M45 69.5v6M49 69.5v6M53 69.5v6M57 69.5v6"/>
+    <path fill="#365553" d="M38 58l10 3 10-3v9H38z"/>
+    <path fill="none" stroke="#223a39" stroke-width="1.3" d="M38 58l10 3 10-3"/>
+    <path fill="none" stroke="#456966" stroke-width="1.2" d="M40 47c3-1 6-1 9 0M56 47c2 0 4 1 5 2"/>
+    <path fill="#456966" stroke="none" d="M42 52c1-1 2-1 3 0-1 2-2 2-3 0z"/>
+
+    <!-- hood bunched at the back of the neck -->
+    <path fill="#274140" d="M37 33c2-3 5-4 9-4h6c4 0 7 1 9 4l2 8c-5-3-9-4-14-4s-9 1-14 4z"/>
+    <path fill="none" stroke="#1b2f2e" stroke-width="1.2" d="M38 37c4-2 8-2 12-2s8 0 11 2"/>
+
+    <!-- arms -->
+    <path fill="#2e4a49" d="M35 41l-6 3-4 24 7 3 5-24z"/>
+    <path fill="#2e4a49" d="M61 41l6 3 4 24-7 3-5-24z"/>
+    <path fill="#253d3c" stroke="none" d="M35.2 43.5l2.4-1.2 4.2 21-2.4 1z"/>
+    <path fill="#223a39" d="M24.6 66l7.6 2.6-1.4 6.4-7.4-2.6z"/>
+    <path fill="#223a39" d="M71.4 66l-7.6 2.6 1.4 6.4 7.4-2.6z"/>
+    <path fill="none" stroke="#1a2f2e" stroke-width="1.2" d="M31 45l-3 20M65 45l3 20"/>
+
+    <!-- hands -->
+    <path fill="#dcc2ac" d="M23.5 72.5c3-1.2 5.5-.4 6.5 1.8 1 2.2 0 4.3-2.4 5.3-2.4 1-5 .2-6-2-1-2.1-.6-4.2 1.9-5.1z"/>
+    <path fill="none" stroke="#b89680" stroke-width="1" d="M25 74.5l2.4 1.2M24.5 76.8l2.3 1"/>
+    <path fill="#c9aa94" d="M72.5 72.5c-3-1.2-5.5-.4-6.5 1.8-1 2.2 0 4.3 2.4 5.3 2.4 1 5 .2 6-2 1-2.1.6-4.2-1.9-5.1z"/>
+    <path fill="none" stroke="#b08c75" stroke-width="1" d="M71 74.5l-2.4 1.2M71.5 76.8l-2.3 1"/>
+
+    <!-- neck -->
+    <path fill="#cbb09b" d="M43 29h10v9H43z"/>
+    <path fill="#b89a85" stroke="none" d="M43 32h10v2.5H43z"/>
+
+    <!-- face -->
+    <ellipse cx="48" cy="22.5" rx="9.5" ry="10.5" fill="#dfc5b2"/>
+    <path fill="#cfb19c" stroke="none" d="M39 21c-.5 5 1 9 5 11-5 0-8-4-7.5-9z"/>
+    <path fill="#cfb19c" stroke="none" d="M57 21c.5 5-1 9-5 11 5 0 8-4 7.5-9z"/>
+    <ellipse cx="38.6" cy="24" rx="2.1" ry="2.9" fill="#d2b49d"/>
+    <ellipse cx="57.4" cy="24" rx="2.1" ry="2.9" fill="#d2b49d"/>
+    <path fill="none" stroke="#b08b74" stroke-width="1" d="M38.8 23.2c.6.6 1.4.8 2 .6"/>
+
+    <!-- frightened eyes, raised brows -->
+    <path fill="none" stroke="#3a2a24" stroke-width="1.7" d="M40.4 18.4l5.2-1.5M50.4 16.9l5.2 1.5"/>
+    <ellipse cx="43.5" cy="22.4" rx="2.7" ry="2.5" fill="#f1ece0"/>
+    <ellipse cx="52.5" cy="22.4" rx="2.7" ry="2.5" fill="#f1ece0"/>
+    <circle cx="43.7" cy="22.6" r="1.35" fill="#35443c" stroke="none"/>
+    <circle cx="52.3" cy="22.6" r="1.35" fill="#35443c" stroke="none"/>
+    <circle cx="43.7" cy="22.6" r="0.7" fill="#121718" stroke="none"/>
+    <circle cx="52.3" cy="22.6" r="0.7" fill="#121718" stroke="none"/>
+    <circle cx="44.2" cy="22" r="0.5" fill="#f8f5e9" stroke="none"/>
+    <circle cx="52.8" cy="22" r="0.5" fill="#f8f5e9" stroke="none"/>
+    <path fill="none" stroke="#a98a76" stroke-width="1" d="M40.8 25.6c1.8.6 3.6.5 5.2-.2M50 25.4c1.6.7 3.4.8 5.2.2"/>
+    <path fill="none" stroke="#ad8872" stroke-width="1.2" d="M48 24.2v2.6"/>
+    <ellipse cx="48" cy="29.2" rx="2.2" ry="1.5" fill="#6d3f38"/>
+    <path fill="none" stroke="#8f5b4f" stroke-width="1" d="M46.2 31.6c1.2.6 2.4.6 3.6 0"/>
+
+    <!-- grime and a plaster on the cheek -->
+    <path fill="#bda38e" opacity="0.55" stroke="none" d="M41 26c1.6 1.4 3.4 2 5.2 1.8-1.4 1.2-3.6 1-5.2-.6z"/>
+    <path fill="#d8c9a6" d="M53.5 26.6l5-1.5 1 3.2-5 1.5z" stroke-width="1"/>
+    <path fill="none" stroke="#a9997b" stroke-width="0.8" d="M55.2 26.6l.4 1.2M56.9 26.1l.4 1.2"/>
+
+    <!-- short black hair -->
+    <path fill="#1c2024" d="M38.5 21.5C37 13 41.5 8 48 8s11 5 9.5 13.5c-1.6-4.2-3.4-6.3-5.4-7.3l-1.3 2.6-2.8-3.8-3 3.6-2.2-2.1c-2.2 1.6-3.6 3.6-4.3 7z"/>
+    <path fill="#2b3238" stroke="none" d="M43 10c2-1.4 4.4-1.8 6.6-1.2-3 .4-5 2-6.2 4.6-.8 1.8-.9 3.4-.6 5l-2.2-1c.2-3.2 1-5.6 2.4-7.4z"/>
+    <path fill="#191d22" d="M38.4 18.6c-2 4-2 9-.8 12.6l3-1c-1-3.6-1-7.4 0-10.4z"/>
+    <path fill="#191d22" d="M57.6 18.6c2 4 2 9 .8 12.6l-3-1c1-3.6 1-7.4 0-10.4z"/>
+    <path fill="#1c2024" d="M42 31.5l2.4-1 .6 2.6-2.2.9zM53.8 31.4l2.2.9-.6 2.5-2.4-.9z"/>
+
+    <!-- battered flashlight in his right hand -->
+    <circle cx="14" cy="80" r="19" fill="url(#torchGlow)"/>
+    <path fill="#f3d18a" opacity="0.18" d="M14 77L0 64v45l14-8z"/>
+    <path fill="#8c8873" d="M25 73.5l3 4.2-10.6 7.4-3.2-4.2z"/>
+    <path fill="#6f6c59" d="M25 73.5l1.2 1.6-10.4 7.2-1.2-1.4z"/>
+    <path fill="#a49d84" d="M17.4 76.9l3.2 4.2-2.4 1.7-3.2-4.2z"/>
+    <path fill="#e8c27a" d="M14 78.8l2.6 3.4-2.2 1.6-2.6-3.4z"/>
+    <path fill="#fdf1c4" stroke="#141119" stroke-width="1.2" d="M13.2 79.7l1.6 2.1-1.1.8-1.6-2.1z"/>
+    <path fill="none" stroke="#4b493c" stroke-width="1" d="M21.6 74.9l2.6 3.6M19.4 76.4l2.6 3.6"/>
+    <path fill="#cbb09b" d="M23.8 72.6c1.6-.4 3 .1 3.8 1.3l-2.4 1.8c-1-.4-2-1.2-2.4-2.1z" stroke-width="1.2"/>
+
+  </g>
+</svg>

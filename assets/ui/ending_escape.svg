@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Финал — выход</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1218"/><stop offset="0.5" stop-color="#1d2a30"/><stop offset="0.8" stop-color="#4a5654"/><stop offset="1" stop-color="#8a948c"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c3633"/><stop offset="0.4" stop-color="#1a2321"/><stop offset="1" stop-color="#070b0a"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2524"/><stop offset="1" stop-color="#0b1110"/>
+    </linearGradient>
+    <radialGradient id="window" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffdb95" stop-opacity="0.9"/><stop offset="0.35" stop-color="#d99a45" stop-opacity="0.4"/><stop offset="1" stop-color="#d99a45" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dawn" cx="0.5" cy="0.9" r="0.7">
+      <stop offset="0" stop-color="#cdd6c4" stop-opacity="0.28"/><stop offset="0.6" stop-color="#8d9d92" stop-opacity="0.08"/><stop offset="1" stop-color="#8d9d92" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.45" r="0.72">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="0.6" stop-color="#000" stop-opacity="0.16"/><stop offset="1" stop-color="#000" stop-opacity="0.84"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="800" cy="820" r="620" fill="url(#dawn)"/>
+  <!-- distant trees -->
+  <path d="M0 560c60-40 100-20 140-46 30-20 60-14 80 6 26-30 60-34 90-12 20 14 40 20 70 16v220H0z" fill="#0b1210" opacity="0.85"/>
+  <path d="M0 620c40-16 70-4 100-20 22-12 44-6 58 8 18-16 44-18 64-4v180H0z" fill="#080d0c" opacity="0.9"/>
+  <!-- hospital -->
+  <g>
+    <path d="M760 640V170h820v470z" fill="url(#wall)"/>
+    <path d="M760 170h820v18H760z" fill="#060a09"/>
+    <path d="M760 640h820v24H760z" fill="#050808"/>
+    <path d="M800 212h120v96H800zM960 212h120v96H960zM1120 212h120v96h-120zM1280 212h120v96h-120zM1440 212h100v96h-100z" fill="#0e1716" stroke="#26322f" stroke-width="3"/>
+    <path d="M800 348h120v96H800zM960 348h120v96H960zM1280 348h120v96h-120zM1440 348h100v96h-100z" fill="#0e1716" stroke="#26322f" stroke-width="3"/>
+    <path d="M800 484h120v96H800zM960 484h120v96H960zM1120 484h120v96h-120zM1280 484h120v96h-120zM1440 484h100v96h-100z" fill="#0d1514" stroke="#222e2b" stroke-width="3"/>
+    <path d="M1120 348h120v96h-120z" fill="#151d18" stroke="#3a443c" stroke-width="3"/>
+    <path d="M1132 360h96v72h-96z" fill="#f3c377" opacity="0.15"/>
+    <path d="M1132 360h96v72h-96z" fill="none" stroke="#e0b267" stroke-width="2" opacity="0.5"/>
+    <rect x="1136" y="364" width="44" height="32" fill="#ffd794" opacity="0.35"/>
+    <rect x="1184" y="400" width="40" height="28" fill="#ffd794" opacity="0.22"/>
+    <circle cx="1180" cy="396" r="120" fill="url(#window)" opacity="0.55"/>
+    <path d="M1090 640V360h8v280zM1230 640V360h8v280z" fill="#060a09" opacity="0.6"/>
+    <path d="M900 640V430h6v210zM1330 640V430h6v210z" fill="#060a09" opacity="0.5"/>
+  </g>
+  <!-- fence -->
+  <g stroke="#0a0f0e" stroke-width="4">
+    <path d="M0 700h1600M0 760h1600M0 820h1600"/>
+    <path d="M80 640v260M220 640v260M360 640v260M500 640v260M640 640v260M780 640v260M920 640v260M1060 640v260M1200 640v260M1340 640v260M1480 640v260"/>
+  </g>
+  <g stroke="#39433e" stroke-width="2" opacity="0.6">
+    <path d="M0 700h1600M0 760h1600M0 820h1600"/>
+    <path d="M80 640v260M220 640v260M360 640v260M500 640v260M640 640v260M780 640v260M920 640v260M1060 640v260M1200 640v260M1340 640v260M1480 640v260"/>
+  </g>
+  <path d="M0 660c40-10 60 6 100 0s60-14 100-4 60 18 100 8 60-16 100-6 60 16 100 6 60-14 100-4 60 14 100 6 60-12 100-2 60 12 100 4 60-10 100 0 60 10 100 2 60-8 100 2" fill="none" stroke="#0a0f0e" stroke-width="3" opacity="0.75"/>
+  <!-- wet ground -->
+  <rect y="620" width="1600" height="280" fill="url(#ground)"/>
+  <path d="M0 700h1600M0 780h1600" stroke="#e8b977" stroke-width="2" opacity="0.06"/>
+  <path d="M1050 706c60 4 120 2 180-4M1110 760c80 6 160 4 240-6" stroke="#f0c177" stroke-width="3" opacity="0.12"/>
+  <path d="M0 860c180-14 320 10 480 0s300-16 460-2 380 18 660 4v38H0z" fill="#040706"/>
+  <!-- road -->
+  <path d="M0 900l520-280h180L500 900z" fill="#141c1a" opacity="0.8"/>
+  <path d="M760 900l340-280h100l-260 280z" fill="#0d1413" opacity="0.8"/>
+  <!-- boy walking away -->
+  <g>
+    <ellipse cx="610" cy="790" rx="42" ry="8" fill="#020404" opacity="0.6"/>
+    <path d="M596 792l-10-58 10-4 12 58zM616 792l10-58-10-4-12 58z" fill="#232b29"/>
+    <path d="M592 734c-6-22-4-40 2-52 6-12 20-16 30-8 10 8 12 26 6 44l6 18h-16l-8-18-4 18z" fill="#2c3c39"/>
+    <circle cx="612" cy="668" r="12" fill="#1a1f1e"/>
+    <path d="M600 664c1-9 6-14 13-14s12 6 12 15c-3-5-7-7-12-7s-10 3-13 6z" fill="#0d1110"/>
+    <path d="M610 714l-20 12 2 8 22-10z" fill="#2c3c39"/>
+    <path d="M584 730l-16-4 2-8 18 5z" fill="#8c8873"/>
+    <path d="M568 722l-6 2 2 6 6-2z" fill="#ffe6b0"/>
+    <circle cx="564" cy="724" r="16" fill="url(#window)" opacity="0.6"/>
+    <path d="M632 716l18 10-2 8-20-8z" fill="#2c3c39"/>
+  </g>
+  <!-- rain -->
+  <g stroke="#b9c9c1" stroke-width="1.4" opacity="0.14">
+    <path d="M120 40l-18 60M300 10l-22 74M520 70l-16 54M700 0l-20 66M900 50l-16 52M1080 20l-18 60M1260 60l-14 46M1440 10l-20 64M240 180l-16 52M460 220l-14 46M760 160l-18 58M1000 200l-14 46M1320 180l-16 52M1500 240l-14 46"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#vig)"/>
+</svg>

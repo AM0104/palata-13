@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Knock sigil — hammer and seam</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M18 50L38 18"/>
+    <path d="M33 17l12-7 8 12-12 7z"/>
+    <path d="M10 54l10-6M46 50h8M50 44v12"/>
+    <path d="M14 20c4 3 6 7 6 12M50 14l4 4"/>
+  </g>
+</svg>

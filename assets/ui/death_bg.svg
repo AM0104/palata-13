@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Death — flooded drift</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#130b0b"/><stop offset="0.5" stop-color="#1c1010"/><stop offset="1" stop-color="#050606"/></linearGradient>
+    <radialGradient id="red" cx="0.5" cy="0.42" r="0.5"><stop offset="0" stop-color="#ff744d" stop-opacity="0.65"/><stop offset="0.35" stop-color="#b52c20" stop-opacity="0.25"/><stop offset="1" stop-color="#b52c20" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.48" r="0.68"><stop offset="0" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.9"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="800" cy="340" r="510" fill="url(#red)"/>
+  <path d="M0 0h260v900H0zM1340 0h260v900h-260z" fill="#080909" opacity="0.7"/>
+  <path d="M300 0v900M1300 0v900" stroke="#4e4842" stroke-width="16" opacity="0.35"/>
+  <path d="M0 116h1600M0 190h1600M0 770h1600" stroke="#3d3530" stroke-width="10" opacity="0.5"/>
+  <path d="M520 0v900M1080 0v900M680 0v900M920 0v900" stroke="#0b0d0d" stroke-width="12" opacity="0.55"/>
+  <g opacity="0.6">
+    <path d="M420 240h160v60H420zM1020 250h170v56H1020z" fill="#30251e"/>
+    <path d="M420 240h160v8H420zM1020 250h170v8H1020z" fill="#8a5f40" opacity="0.35"/>
+    <path d="M500 300v350M1105 306v330" stroke="#2a211c" stroke-width="22"/>
+    <circle cx="500" cy="650" r="30" fill="#241b17" stroke="#63442f" stroke-width="7"/>
+    <circle cx="1105" cy="636" r="27" fill="#241b17" stroke="#63442f" stroke-width="6"/>
+  </g>
+  <g>
+    <path d="M800 172l-40 54h80z" fill="#c4572f"/>
+    <circle cx="800" cy="240" r="16" fill="#ffb27d"/>
+    <circle cx="800" cy="240" r="160" fill="#ff7a4e" opacity="0.14"/>
+    <path d="M800 240L510 900h580z" fill="#ff7a4e" opacity="0.06"/>
+  </g>
+  <path d="M0 700c160-24 290 12 430-4s300-18 470 6 340 4 700-24v222H0z" fill="#070b0b"/>
+  <path d="M0 724c190 14 300-12 480 6s330 2 520-10 380 0 600 22" fill="none" stroke="#7f3f31" stroke-width="4" opacity="0.35"/>
+  <g fill="#161818">
+    <path d="M640 690l-34 60h110l-28-60z"/>
+    <path d="M920 676l-24 54h96l-32-54z"/>
+  </g>
+  <rect width="1600" height="900" fill="url(#vig)"/>
+  <rect x="14" y="14" width="1572" height="872" fill="none" stroke="#9b5c4c" stroke-width="2" opacity="0.2"/>
+</svg>

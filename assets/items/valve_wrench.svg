@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Valve wrench</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#8a6a3a" d="M30 54l8-38 6 2-8 38z"/>
+    <path fill="#5b5f63" d="M26 6h22v14H26z"/>
+    <path fill="#3d4145" d="M32 10h10v6H32z"/>
+    <path fill="#a4adb4" stroke="none" d="M27 8h20v3H27z"/>
+    <path fill="#6d7782" d="M34 20h4v6h-4z"/>
+    <path fill="#8a6a3a" stroke="none" d="M31 54l4 1 1 5-5-1z"/>
+  </g>
+</svg>

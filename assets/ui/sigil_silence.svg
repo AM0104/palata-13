@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Silence sigil — crossed pick and lamp</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M12 52L44 12M28 9l16 5-4 10"/>
+    <path d="M52 52L20 12M36 9l-16 5 4 10"/>
+    <path d="M19 44h26"/>
+    <circle cx="32" cy="32" r="4"/>
+  </g>
+</svg>

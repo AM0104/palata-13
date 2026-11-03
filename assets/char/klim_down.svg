@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="128" viewBox="0 0 96 128">
+  <title>Klim - down (facing viewer)</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- crowbar on the back: straight bar with a hooked end -->
+    <path fill="#6d7782" d="M61 18l6 3-23 87-6-3z"/>
+    <path fill="#8c98a3" stroke="none" d="M62 20l2 1-22 84-2-1z"/>
+    <path fill="#6d7782" d="M64 18l9 2c3 1 4 4 3 7l-3 4-6-2 2-4c0-1-1-2-2-2l-6-1z"/>
+    <path fill="none" stroke="#3f474f" stroke-width="1.4" d="M59 25l-4 14"/>
+    <circle cx="40" cy="102" r="3" fill="#3f474f"/>
+
+    <!-- boots -->
+    <path fill="#17151b" d="M34 113h13v10H34c-1.5 0-2.3-1.6-2.3-4s.8-4 2.3-4z"/>
+    <path fill="#17151b" d="M49 113h13c1.5 0 2.3 1.6 2.3 4s-.8 4-2.3 4H49z"/>
+
+    <!-- heavy trousers -->
+    <path fill="#2a2d2c" d="M37 68h10v48H37z"/>
+    <path fill="#202322" d="M50 68h10l2 48H52z"/>
+    <path fill="none" stroke="#17191a" stroke-width="1.2" d="M48 70v44"/>
+
+    <!-- olive rescue jacket -->
+    <path fill="#3d4a2c" d="M30 34c-4 6-5 15-5 26l3 27h40l3-27c0-11-1-20-5-26z"/>
+    <path fill="#2f3a22" stroke="none" d="M26 60l3 27h6l-3-27c0-9 0-16 2-22-4 6-7 13-8 22z"/>
+    <path fill="#4a5836" stroke="none" d="M34 36c-2 7-3 16-3 26l2 24h4l-2-24c0-10 1-19 3-26z"/>
+    <path fill="#c9c2a8" d="M27 50h42v4H27z"/>
+    <path fill="#c9c2a8" d="M26 78h44v4H26z"/>
+    <path fill="#b3ac92" stroke="none" d="M27 52.6h42v1H27zM26 80.6h44v1H26z"/>
+    <!-- collar and zip -->
+    <path fill="#2b3320" d="M42 34l6 8 6-8 5 3-11 14-11-14z"/>
+    <path fill="#1f2518" d="M46 42h4l-1 44h-2z"/>
+    <path fill="none" stroke="#596843" stroke-width="1.2" d="M37 38l-1 48M59 38l1 48"/>
+
+    <!-- arms and work gloves -->
+    <path fill="#3d4a2c" d="M31 36l-8 5-3 26 7 2 5-26z"/>
+    <path fill="#3d4a2c" d="M65 36l8 5 3 26-7 2-5-26z"/>
+    <path fill="#2f3a22" stroke="none" d="M31.5 39l2.4-1.4 3.8 24-2.2.7z"/>
+    <path fill="#3a3630" d="M20 64l8 2-1 13-8-2z"/>
+    <path fill="#3a3630" d="M76 64l-8 2 1 13 8-2z"/>
+
+    <!-- neck, weathered face and beard -->
+    <path fill="#b98b6a" d="M43 27h10v10H43z"/>
+    <ellipse cx="48" cy="23" rx="11" ry="12" fill="#d0a17c"/>
+    <path fill="#c08f6a" stroke="none" d="M38 17c3-4 6-6 10-6s7 2 10 6c-2 5-5 8-10 8s-8-3-10-8z"/>
+    <!-- eyes -->
+    <ellipse cx="43.4" cy="22" rx="2.4" ry="1.9" fill="#e9e1d2"/>
+    <ellipse cx="52.6" cy="22" rx="2.4" ry="1.9" fill="#e9e1d2"/>
+    <circle cx="43.6" cy="22.2" r="1.1" fill="#5b4b3b" stroke="none"/>
+    <circle cx="52.4" cy="22.2" r="1.1" fill="#5b4b3b" stroke="none"/>
+    <path fill="none" stroke="#6b4d39" stroke-width="1.6" d="M40.6 18.4l5 .6M50.4 19l5-.6"/>
+    <path fill="none" stroke="#a77a5b" stroke-width="1.2" d="M48 24.2v2.4"/>
+    <!-- beard and moustache -->
+    <path fill="#4a382a" d="M38 26c2 9 5 15 10 15s8-6 10-15c-1 4-3 6-5 8-2 2-4 3-5 3s-3-1-5-3c-2-2-4-4-5-8z"/>
+    <path fill="#4a382a" d="M42 28c2-1 4-1.5 6-1.5s4 .5 6 1.5c-2 2-4 3-6 3s-4-1-6-3z"/>
+    <path fill="none" stroke="#6b4032" stroke-width="1.2" d="M45 31.6h6"/>
+
+    <!-- short hair -->
+    <path fill="#2f251d" d="M37 20c-1-9 4-15 11-15s12 6 11 15c-1-5-3-7-5-8l-2 3-4-4-3 4-3-2c-2 2-4 4-5 7z"/>
+    <path fill="#3d2f24" d="M36 17c-2 5-2 10-1 14l4-1c-1-4-1-8 0-12z"/>
+    <path fill="#3d2f24" d="M60 17c2 5 2 10 1 14l-4-1c1-4 1-8 0-12z"/>
+
+    <!-- rescue helmet -->
+    <path fill="#c9902e" d="M33 15c0-7 6-11 15-11s15 4 15 11c-3-3-7-5-15-5s-12 2-15 5z"/>
+    <path fill="#e0a63e" stroke="none" d="M39 7c3-2 6-3 9-3-5 1-8 4-9 8-1 2-1 4-1 6l-3 0c0-5 1-9 4-11z"/>
+    <path fill="none" stroke="#7d5719" stroke-width="1.4" d="M32.6 15.2h30.8"/>
+    <path fill="#fff3c4" d="M44 8.5h8v4.5h-8z"/>
+    <path fill="#8a6a20" d="M43 6h10v2H43z"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Gate sigil</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M12 56V16a20 20 0 0 1 40 0v40"/>
+    <path d="M22 56V18a10 10 0 0 1 20 0v38"/>
+    <path d="M8 56h48"/>
+    <circle cx="32" cy="34" r="4"/>
+    <path d="M32 38v10"/>
+  </g>
+</svg>

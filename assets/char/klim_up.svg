@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="128" viewBox="0 0 96 128">
+  <title>Klim - up (back view)</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- crowbar across the back -->
+    <path fill="#6d7782" d="M25 26l6 2 31 74-6 3z"/>
+    <path fill="#8c98a3" stroke="none" d="M27 28l2 1 30 72-2 1z"/>
+    <path fill="#6d7782" d="M27 24l9 3c3 1 4 4 3 7l-3 4-6-2 2-4c0-1-1-2-2-2l-7-3z"/>
+    <circle cx="60" cy="104" r="3" fill="#3f474f"/>
+
+    <!-- boots -->
+    <path fill="#17151b" d="M34 113h13v10H34c-1.5 0-2.3-1.6-2.3-4s.8-4 2.3-4z"/>
+    <path fill="#17151b" d="M49 113h13c1.5 0 2.3 1.6 2.3 4s-.8 4-2.3 4H49z"/>
+
+    <!-- trousers -->
+    <path fill="#2a2d2c" d="M37 68h10v48H37z"/>
+    <path fill="#202322" d="M50 68h10v48H50z"/>
+    <path fill="none" stroke="#17191a" stroke-width="1.2" d="M48 70v44"/>
+
+    <!-- jacket back -->
+    <path fill="#3d4a2c" d="M30 34c-4 6-5 15-5 26l3 27h40l3-27c0-11-1-20-5-26z"/>
+    <path fill="#2f3a22" stroke="none" d="M26 60l3 27h6l-3-27c0-9 0-16 2-22-4 6-7 13-8 22z"/>
+    <path fill="#4a5836" stroke="none" d="M34 36c-2 7-3 16-3 26l2 24h4l-2-24c0-10 1-19 3-26z"/>
+    <path fill="#c9c2a8" d="M27 50h42v4H27z"/>
+    <path fill="#c9c2a8" d="M26 78h44v4H26z"/>
+    <!-- air bottle on the back -->
+    <path fill="#4c5654" d="M41 39h14v26H41z"/>
+    <path fill="#687472" stroke="none" d="M43 41h3v22h-3z"/>
+    <path fill="none" stroke="#2c3433" stroke-width="1.3" d="M48 40v24"/>
+    <path fill="#88928e" d="M46 35h4v5h-4z"/>
+    <path fill="none" stroke="#596843" stroke-width="1.2" d="M35 38l-1 48M61 38l1 48"/>
+
+    <!-- arms and gloves -->
+    <path fill="#3d4a2c" d="M31 36l-8 5-3 26 7 2 5-26z"/>
+    <path fill="#3d4a2c" d="M65 36l8 5 3 26-7 2-5-26z"/>
+    <path fill="#3a3630" d="M20 64l8 2-1 13-8-2z"/>
+    <path fill="#3a3630" d="M76 64l-8 2 1 13 8-2z"/>
+
+    <!-- neck and back of head -->
+    <path fill="#b98b6a" d="M43 27h10v10H43z"/>
+    <ellipse cx="48" cy="23" rx="11" ry="12" fill="#d0a17c"/>
+    <path fill="#2f251d" d="M37 23c0-9 5-15 11-15s11 6 11 15v8c-3 2-6 3-11 3s-8-1-11-3z"/>
+    <path fill="#3d2f24" stroke="none" d="M40 12c2-2 5-3 8-3-4 1-6 3-7 6z"/>
+
+    <!-- helmet from behind -->
+    <path fill="#c9902e" d="M33 15c0-7 6-11 15-11s15 4 15 11c-3-3-7-5-15-5s-12 2-15 5z"/>
+    <path fill="#e0a63e" stroke="none" d="M39 7c3-2 6-3 9-3-5 1-8 4-9 8-1 2-1 4-1 6l-3 0c0-5 1-9 4-11z"/>
+    <path fill="none" stroke="#7d5719" stroke-width="1.4" d="M32.6 15.2h30.8"/>
+    <path fill="#8a6a20" d="M43 9h10v3H43z"/>
+  </g>
+</svg>

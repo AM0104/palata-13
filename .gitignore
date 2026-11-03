@@ -1,0 +1,21 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Project-local tooling and scratch dirs
+.tools/
+.qc_tmp/
+.tmp_preview/
+
+# Build artifacts
+build/
+
+# Distribution packages, store page and promo material
+store/
+presentation/
+captures/
+
+# Local saves and Godot user data snapshots
+saves/
+.godot_userdata/
+.home/

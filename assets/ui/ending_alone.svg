@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Ending — alone</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8c4ba"/><stop offset="0.4" stop-color="#6e8580"/><stop offset="0.75" stop-color="#1d3333"/><stop offset="1" stop-color="#050d0e"/></linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f5f2dc" stop-opacity="0.9"/><stop offset="1" stop-color="#f5f2dc" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.7"><stop offset="0" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.6"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="820" cy="170" r="300" fill="url(#sun)"/>
+  <path d="M0 0h1600v96H0z" fill="#141f1e" opacity="0.7"/>
+  <path d="M0 640h1600v260H0z" fill="#081313"/>
+  <path d="M0 660c200-10 330 12 510-4s320-12 500 6 370-2 590-18v256H0z" fill="#050f0f"/>
+  <g stroke="#1c2927" stroke-width="12" opacity="0.8">
+    <path d="M340 0v640M480 0v640M1120 0v640M1260 0v640"/>
+    <path d="M340 150h140M340 300h140M340 450h140M340 600h140"/>
+    <path d="M1120 150h140M1120 300h140M1120 450h140M1120 600h140"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M700 164h200v280H700z" fill="#101919" stroke="#716b59" stroke-width="6"/>
+    <path d="M700 164h200v28H700zM700 416h200v28H700z" fill="#4f4839"/>
+    <path d="M728 192v224M872 192v224M700 304h200" stroke="#6c6250" stroke-width="5"/>
+    <path d="M700 164l-22-32h244l-22 32z" fill="#3a3328"/>
+    <path d="M684 132h232" stroke="#9e8c6c" stroke-width="7"/>
+    <path d="M800 132V42M800 42l-18 12M800 42l18 12" stroke="#8a7b60" stroke-width="4" fill="none"/>
+  </g>
+  <g>
+    <path d="M790 780l-24-270h68l-24 270z" fill="#0b1414"/>
+    <path d="M782 520h20M778 560h28M774 604h36M768 652h48M760 704h64M752 760h80" stroke="#7d725d" stroke-width="6" opacity="0.85"/>
+    <path d="M722 540v240M878 540v240" stroke="#5c5343" stroke-width="5" opacity="0.55"/>
+    <circle cx="812" cy="426" r="18" fill="#2c2420"/>
+    <path d="M812 444c-25 0-41 20-41 52v90h82v-90c0-32-16-52-41-52z" fill="#1d2521"/>
+    <path d="M812 456l-18 40 18 12 18-12z" fill="#c99a54" opacity="0.7"/>
+    <path d="M786 510l-12 48M838 510l12 48" stroke="#1d2521" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <path d="M600 900l50-210h320l50 210z" fill="#050e0e" opacity="0.65"/>
+  <path d="M0 900V820l150-16 130 20 150-10 140 18 160-10 150 14 170-18 150 12 150-8 130 18v50z" fill="#040909"/>
+  <rect width="1600" height="900" fill="url(#vig)"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Lift pass</title>
+  <g stroke="#141119" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+    <path fill="#d2c7ad" d="M12 14h40v36H12z"/>
+    <path fill="#b8ab8d" d="M12 14h40v7H12z"/>
+    <path fill="#5d6b64" d="M17 27h20v15H17z"/>
+    <circle cx="27" cy="34" r="5" fill="#c6b184"/>
+    <path fill="#8c4a34" d="M22 41c2-3 8-3 10 0z"/>
+    <path fill="none" stroke="#6b604b" stroke-width="1.5" d="M41 28h7M41 33h7M41 38h5M17 47h30"/>
+    <path fill="#9e3f2d" d="M42 43h7v5h-7z"/>
+  </g>
+</svg>

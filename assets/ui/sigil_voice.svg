@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Voice sigil — speaker horn</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M12 26h10l18-12v36L22 38H12z"/>
+    <path d="M22 38v15h8V38"/>
+    <path d="M47 23c5 5 5 13 0 18M53 17c8 8 8 22 0 30"/>
+  </g>
+</svg>

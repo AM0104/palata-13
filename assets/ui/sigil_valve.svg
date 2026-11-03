@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Valve sigil</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <circle cx="32" cy="32" r="7"/>
+    <path d="M32 25V10M32 39v15M25 32H10M39 32h15"/>
+    <path d="M32 10l-5 6M32 10l5 6M32 54l-5-6M32 54l5-6M10 32l6-5M10 32l6 5M54 32l-6-5M54 32l-6 5"/>
+  </g>
+</svg>

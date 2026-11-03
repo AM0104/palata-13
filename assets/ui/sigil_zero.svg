@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Zero sigil — the horizon that is not there</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <ellipse cx="32" cy="32" rx="16" ry="24"/>
+    <path d="M8 32h48M32 8v48"/>
+    <path d="M12 20l8 4M52 44l-8-4"/>
+    <circle cx="32" cy="32" r="3" fill="#d8d2c2" stroke="none"/>
+  </g>
+</svg>

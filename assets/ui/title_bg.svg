@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>ПАЛАТА 13 — ночной корпус Б</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070a0b"/><stop offset="0.55" stop-color="#0c1212"/><stop offset="1" stop-color="#040606"/>
+    </linearGradient>
+    <linearGradient id="wallL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#080d0c"/><stop offset="0.45" stop-color="#1b2927"/><stop offset="1" stop-color="#2b3a37"/>
+    </linearGradient>
+    <linearGradient id="wallR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#070b0a"/><stop offset="0.5" stop-color="#192725"/><stop offset="1" stop-color="#253431"/>
+    </linearGradient>
+    <linearGradient id="wallBack" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2724"/><stop offset="0.65" stop-color="#223330"/><stop offset="1" stop-color="#0e1816"/>
+    </linearGradient>
+    <linearGradient id="ceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#050808"/><stop offset="1" stop-color="#101817"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#283431"/><stop offset="0.4" stop-color="#1a2321"/><stop offset="1" stop-color="#080c0b"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffd894" stop-opacity="0.30"/><stop offset="0.5" stop-color="#e8b05e" stop-opacity="0.12"/><stop offset="1" stop-color="#e8b05e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="doorLight" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#f7cf8a" stop-opacity="0.85"/><stop offset="0.4" stop-color="#c98f45" stop-opacity="0.42"/><stop offset="1" stop-color="#3a2a1c" stop-opacity="0.12"/>
+    </linearGradient>
+    <radialGradient id="doorGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe6ac" stop-opacity="0.9"/><stop offset="0.28" stop-color="#e8a94f" stop-opacity="0.5"/><stop offset="0.62" stop-color="#a35f22" stop-opacity="0.18"/><stop offset="1" stop-color="#a35f22" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe0a0" stop-opacity="0.85"/><stop offset="0.2" stop-color="#e8ab52" stop-opacity="0.4"/><stop offset="0.6" stop-color="#a8672a" stop-opacity="0.12"/><stop offset="1" stop-color="#a8672a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.48" r="0.7">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/><stop offset="0.62" stop-color="#000000" stop-opacity="0.12"/><stop offset="1" stop-color="#000000" stop-opacity="0.86"/>
+    </radialGradient>
+    <linearGradient id="leftShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#040707" stop-opacity="0.82"/><stop offset="0.55" stop-color="#040707" stop-opacity="0.35"/><stop offset="1" stop-color="#040707" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="wallTiles" width="76" height="54" patternUnits="userSpaceOnUse">
+      <path d="M0 0h76M0 27h76M0 0v54M38 0v54" stroke="#0a1210" stroke-width="2.5" opacity="0.5"/>
+      <path d="M0 2h76M0 29h76M2 0v54M40 0v54" stroke="#516962" stroke-width="1" opacity="0.10"/>
+    </pattern>
+    <clipPath id="floorClip"><path d="M0 900 L1600 900 L1220 600 L780 600 Z"/></clipPath>
+    <clipPath id="ceilClip"><path d="M0 0 L1600 0 L1220 300 L780 300 Z"/></clipPath>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- back wall -->
+  <rect x="780" y="300" width="440" height="300" fill="url(#wallBack)"/>
+  <rect x="780" y="300" width="440" height="300" fill="url(#wallTiles)" opacity="0.55"/>
+  <path d="M780 300h440v14H780z" fill="#0b1110" opacity="0.8"/>
+  <path d="M780 586h440v14H780z" fill="#0b1110" opacity="0.8"/>
+
+  <!-- doorway -->
+  <path d="M948 586V372h104v214z" fill="#080b0a"/>
+  <path d="M956 586V380h88v206z" fill="#120d08"/>
+  <rect x="956" y="380" width="88" height="206" fill="url(#doorLight)"/>
+  <path d="M956 586V380h88v206z" fill="#e9b062" opacity="0.10"/>
+  <path d="M948 372h104v8H948zM948 372h8v214h-8zM1044 372h8v214h-8z" fill="#39423c"/>
+  <path d="M966 352h68v18H966z" fill="#2b332d" stroke="#4c5a51" stroke-width="2"/>
+  <path d="M986 356h6v10h-6zM1006 356h6v10h-6z" fill="#c9a35a" opacity="0.85"/>
+
+  <g>
+    <path d="M991 600l-3-112c0-14 5-26 12-32 8 6 13 18 13 32l-3 112h-8l-2-70-2 70z" fill="#080b0a"/>
+    <path d="M974 470l-9 66 7 52h9l-1-108zM1026 470l9 66-7 52h-9l1-108z" fill="#0a0d0b"/>
+    <path d="M986 448c-2 40-2 82 0 120" stroke="#3d4b44" stroke-width="1" opacity="0.28"/>
+    <circle cx="1000" cy="431" r="13" fill="#0a0d0b"/>
+    <path d="M988 424c4-6 9-9 12-9s8 3 12 9c-4-2-8-3-12-3s-8 1-12 3z" fill="#151a16"/>
+    <circle cx="995" cy="430" r="1.3" fill="#c9d6c6" opacity="0.85"/>
+    <circle cx="1006" cy="430" r="1.3" fill="#c9d6c6" opacity="0.85"/>
+    <path d="M1027 512l3 14" stroke="#cbbfa2" stroke-width="1.6" opacity="0.3"/>
+    <circle cx="1032" cy="532" r="4" fill="#f4cd82" opacity="0.6"/>
+    <circle cx="1032" cy="532" r="26" fill="url(#lampGlow)" opacity="0.65"/>
+  </g>  <!-- left wall -->
+  <path d="M0 0 L780 300 L780 600 L0 900 Z" fill="url(#wallL)"/>
+  <path d="M0 0 L780 300 L780 600 L0 900 Z" fill="url(#wallTiles)" opacity="0.35"/>
+  <path d="M0 262 L780 386" stroke="#0a1210" stroke-width="16" opacity="0.55"/>
+  <path d="M0 640 L780 566" stroke="#0a1210" stroke-width="12" opacity="0.45"/>
+  <path d="M380 0v900" stroke="#060b0a" stroke-width="9" opacity="0.5"/>
+  <path d="M620 150v690" stroke="#060b0a" stroke-width="7" opacity="0.4"/>
+
+  <!-- left doors -->
+  <g>
+    <path d="M60 340 L220 366 L220 836 L60 900 Z" fill="#14201d" stroke="#38463f" stroke-width="4"/>
+    <path d="M70 354 L210 377 L210 806 L70 862 Z" fill="#1d2b27"/>
+    <path d="M84 372 L196 391 L196 470 L84 486 ZM84 508 L196 514 L196 592 L84 596 Z" fill="#0e1714" stroke="#465349" stroke-width="2"/>
+    <path d="M126 380 L150 383 L150 470 L126 474 Z" fill="#9fb2a2" opacity="0.10"/>
+    <path d="M150 790l8 2v22l-8-2z" fill="#b99a58"/>
+    <path d="M74 330h150v12H74z" fill="#3c4740" opacity="0.7"/>
+  </g>
+  <g opacity="0.9">
+    <path d="M470 400 L600 414 L600 700 L470 760 Z" fill="#101b18" stroke="#31413a" stroke-width="3"/>
+    <path d="M482 416 L588 428 L588 686 L482 736 Z" fill="#1a2723"/>
+    <path d="M496 434 L574 442 L574 520 L496 528 Z" fill="#0b1310"/>
+    <path d="M520 438 L540 440 L540 526 L520 528 Z" fill="#a8bcae" opacity="0.08"/>
+  </g>
+
+  <!-- right wall -->
+  <path d="M1600 0 L1220 300 L1220 600 L1600 900 Z" fill="url(#wallR)"/>
+  <path d="M1600 0 L1220 300 L1220 600 L1600 900 Z" fill="url(#wallTiles)" opacity="0.3"/>
+  <path d="M1600 250 L1220 386" stroke="#0a1210" stroke-width="14" opacity="0.5"/>
+  <path d="M1600 660 L1220 566" stroke="#0a1210" stroke-width="10" opacity="0.4"/>
+  <path d="M1320 0v900" stroke="#060b0a" stroke-width="8" opacity="0.45"/>
+  <g>
+    <path d="M1480 352 L1600 330 L1600 900 L1480 812 Z" fill="#111c19" stroke="#33443c" stroke-width="3"/>
+    <path d="M1492 368 L1588 350 L1588 860 L1492 792 Z" fill="#1a2824"/>
+    <path d="M1506 392 L1572 380 L1572 470 L1506 480Z" fill="#0b1310" opacity="0.85"/>
+  </g>
+
+  <!-- ceiling -->
+  <path d="M0 0 L1600 0 L1220 300 L780 300 Z" fill="url(#ceil)"/>
+  <path d="M0 0 L1600 0 L1220 300 L780 300 Z" fill="url(#wallTiles)" opacity="0.12"/>
+  <path d="M780 288h440v12H780z" fill="#060a09"/>
+
+  <!-- ceiling lamp (working, left) -->
+  <g>
+    <path d="M520 0v96" stroke="#0a0f0e" stroke-width="5"/>
+    <path d="M470 96h100l16 24H454z" fill="#222b27" stroke="#404a43" stroke-width="3"/>
+    <path d="M474 120h92v8h-92z" fill="#d9b264" opacity="0.55"/>
+    <circle cx="520" cy="128" r="120" fill="url(#lampGlow)" opacity="0.55"/>
+    <path d="M520 128 L360 900 L700 900 Z" fill="#e8bd6f" opacity="0.05"/>
+  </g>
+  <!-- dead lamp right -->
+  <g opacity="0.8">
+    <path d="M1130 0v70" stroke="#0a0f0e" stroke-width="4"/>
+    <path d="M1096 70h68l10 16h-88z" fill="#1b2421" stroke="#333d37" stroke-width="2"/>
+    <path d="M1112 86h36v4h-36z" fill="#6c5a3a" opacity="0.4"/>
+  </g>
+
+  <!-- floor -->
+  <path d="M0 900 L1600 900 L1220 600 L780 600 Z" fill="url(#floor)"/>
+  <g clip-path="url(#floorClip)">
+    <g stroke="#0a100e" stroke-width="2" opacity="0.7">
+      <path d="M0 622h1600M0 650h1600M0 692h1600M0 752h1600M0 830h1600"/>
+      <path d="M1000 430 L-300 900M1000 430 L120 900M1000 430 L440 900M1000 430 L700 900M1000 430 L880 900M1000 430 L1120 900M1000 430 L1360 900M1000 430 L1700 900M1000 430 L1980 900"/>
+    </g>
+    <g stroke="#4a5d55" stroke-width="1" opacity="0.10">
+      <path d="M0 620h1600M0 649h1600M0 691h1600M0 751h1600M0 829h1600"/>
+    </g>
+    <path d="M780 600h440v30H780z" fill="#0a0f0e" opacity="0.5"/>
+    <path d="M820 600l-80 300h180l40-300z" fill="#d9a441" opacity="0.10"/>
+    <path d="M900 606l-160 294h120l120-294z" fill="#e8bd6f" opacity="0.05"/>
+    <path d="M120 760c60-10 100 8 160-2 40-7 50 14 20 26-60 22-170 12-195-6z" fill="#0a1210" opacity="0.5"/>
+    <ellipse cx="300" cy="820" rx="120" ry="22" fill="#050908" opacity="0.5"/>
+    <path d="M600 700l30 4-4 18-30-5z" fill="#b9b39f" opacity="0.35"/>
+    <path d="M650 724l22 3-2 12-22-3z" fill="#b9b39f" opacity="0.25"/>
+    <path d="M700 690l40 6-4 20-40-6z" fill="#b9b39f" opacity="0.18"/>
+    <path d="M760 780c40-6 66 4 90 0 18-3 20 10-4 16-40 10-80 4-92-4z" fill="#3a1512" opacity="0.35"/>
+  </g>
+
+  <!-- gurney, left foreground -->
+  <g>
+    <ellipse cx="300" cy="858" rx="185" ry="20" fill="#030606" opacity="0.6"/>
+    <path d="M130 742h330v34H130z" fill="#202a27" stroke="#3b4841" stroke-width="3"/>
+    <path d="M138 726h314v22H138z" fill="#3c4a45"/>
+    <path d="M146 730h298v12H146z" fill="#6f7a6f" opacity="0.30"/>
+    <path d="M160 776v72M430 776v72" stroke="#46524b" stroke-width="6"/>
+    <path d="M150 848h28M416 848h28" stroke="#2a3330" stroke-width="10"/>
+    <circle cx="160" cy="858" r="14" fill="#0b1110" stroke="#39443d" stroke-width="3"/>
+    <circle cx="430" cy="858" r="14" fill="#0b1110" stroke="#39443d" stroke-width="3"/>
+    <path d="M150 780h300" stroke="#2c3632" stroke-width="4"/>
+    <path d="M200 742v24M260 742v24M320 742v24M380 742v24" stroke="#0d1412" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <!-- IV stand -->
+  <g opacity="0.85">
+    <path d="M690 690v190" stroke="#4b564e" stroke-width="5"/>
+    <path d="M660 878h60" stroke="#3a443d" stroke-width="7"/>
+    <path d="M690 700l-26 10M690 700l30 8" stroke="#4b564e" stroke-width="4"/>
+    <path d="M652 706h18v34h-18z" fill="#a8b8a8" opacity="0.18"/>
+  </g>
+
+  <!-- flashlight beam -->
+  <path d="M1084 682 L900 540 L800 640 L1030 780 Z" fill="url(#beam)"/>
+  <path d="M1084 682 L930 570 L870 630 L1040 748 Z" fill="#ffe2a6" opacity="0.05"/>
+
+  <!-- boy, back view -->
+  <g>
+    <ellipse cx="1240" cy="888" rx="92" ry="14" fill="#020505" opacity="0.6"/>
+    <path d="M1188 742l-6 88-4 58h34l4-56 6 56h34l-2-60-8-86z" fill="#1f2b2a"/>
+    <path d="M1196 748l-6 84-6 48h22l6-46 6 46h18l-4-50-6-82z" fill="#283b39"/>
+    <path d="M1172 882h38v12h-42zM1216 882h38v12h-42z" fill="#111817"/>
+    <path d="M1160 626c-10 40-12 88-6 124l2 30h164l2-30c6-36 4-84-6-124l-14-16h-128z" fill="#2c4543"/>
+    <path d="M1166 632c-8 38-8 82-2 116l2 22h30l-4-22c-4-34-4-78 2-116z" fill="#355250"/>
+    <path d="M1200 618h78v20h-78z" fill="#223634"/>
+    <path d="M1176 622c6-26 30-40 64-40s58 14 64 40c-8-12-22-18-40-20l-24 10-24-10c-18 2-32 8-40 20z" fill="#223a38"/>
+    <path d="M1204 620c14-8 30-12 44-12s30 4 44 12" fill="none" stroke="#3f605c" stroke-width="2" opacity="0.5"/>
+    <ellipse cx="1244" cy="566" rx="30" ry="34" fill="#c9aa94"/>
+    <path d="M1214 560c0-24 12-38 30-38s30 14 30 38c-4-14-10-22-18-25-4 6-12 8-24 8-6 0-12 4-18 17z" fill="#1d2224"/>
+    <path d="M1216 580c2 10 8 18 16 22" fill="none" stroke="#a9856f" stroke-width="2" opacity="0.35"/>
+    <ellipse cx="1214" cy="572" rx="6" ry="9" fill="#c19f88"/>
+    <path d="M1174 646c-14 12-26 30-34 48l16 12c10-18 20-32 32-44z" fill="#28413f"/>
+    <path d="M1140 694c-4 4-8 8-10 12l14 10c4-4 8-8 12-10z" fill="#2c4543"/>
+    <path d="M1118 704l-24-14 6-10 26 14z" fill="#8c8873"/>
+    <path d="M1094 690l-8-4 2-6 9 3z" fill="#ffe6b0"/>
+    <circle cx="1084" cy="682" r="14" fill="url(#lampGlow)" opacity="0.6"/>
+    <path d="M1124 698l6 4-4 8-7-4z" fill="#c9aa94"/>
+    <path d="M1314 646c12 14 20 32 22 52l-18 6c-4-18-10-32-18-44z" fill="#28413f"/>
+    <path d="M1320 696c4 6 6 12 8 18l-16 4c-2-6-4-12-8-16z" fill="#c9aa94"/>
+    <path d="M1178 650c-8 34-8 74-4 108" fill="none" stroke="#e2b878" stroke-width="2" opacity="0.22"/>
+    <path d="M1212 604c4-18 14-28 26-30" fill="none" stroke="#e2b878" stroke-width="2" opacity="0.2"/>
+  </g>
+
+  <!-- dust in the beam -->
+  <g fill="#ffe0a0" opacity="0.35">
+    <circle cx="1010" cy="640" r="2"/><circle cx="970" cy="668" r="1.6"/><circle cx="1046" cy="700" r="2.2"/>
+    <circle cx="930" cy="620" r="1.4"/><circle cx="1080" cy="660" r="1.8"/><circle cx="1000" cy="720" r="1.5"/>
+    <circle cx="880" cy="690" r="1.2"/><circle cx="1050" cy="606" r="1.3"/>
+  </g>
+
+  <!-- fog -->
+  <ellipse cx="800" cy="700" rx="620" ry="120" fill="#9fb9ad" opacity="0.035"/>
+  <ellipse cx="1100" cy="820" rx="500" ry="90" fill="#9fb9ad" opacity="0.03"/>
+
+  <!-- left darkening for the menu text -->
+  <rect width="900" height="900" fill="url(#leftShade)"/>
+  <rect width="1600" height="900" fill="url(#vig)"/>
+  <rect x="18" y="18" width="1564" height="864" fill="none" stroke="#7d8a80" stroke-width="2" opacity="0.16"/>
+</svg>
+

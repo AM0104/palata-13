@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <title>heart_empty</title>
+  <path d="M24 42 C17.5 36.2 6 28.5 6 19.5 C6 12.4 11.4 7 17.8 7 C20.7 7 22.9 8.2 24 9.8 C25.1 8.2 27.3 7 30.2 7 C36.6 7 42 12.4 42 19.5 C42 28.5 30.5 36.2 24 42 Z" fill="#141119" opacity="0.35" stroke="#3a2f36" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M24 38.2 C18.5 33.2 9 26.4 9 19.4 C9 14.3 12.6 10.8 16.8 10.8 C19.2 10.8 21.8 12 24 15.2" fill="none" stroke="#5c4a52" stroke-width="1.8" stroke-linecap="round" opacity="0.65"/>
+  <path d="M19 12.4 C13.6 14 10.6 17.6 11 22.4 C11.8 19.4 14.6 16.4 19 14.8 Z" fill="#5c4a52" opacity="0.4"/>
+</svg>

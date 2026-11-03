@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Drain sigil</title>
+  <g stroke="#d8d2c2" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M10 16h44"/>
+    <path d="M18 16v10M32 16v14M46 16v10"/>
+    <path d="M22 26c0 6 4 9 10 9s10-3 10-9"/>
+    <path d="M32 35v16"/>
+    <path d="M26 46l6 8 6-8"/>
+    <path d="M12 54h40"/>
+  </g>
+</svg>

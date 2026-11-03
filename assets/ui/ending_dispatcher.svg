@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Ending — the new dispatcher</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#101d20"/><stop offset="0.55" stop-color="#0a1215"/><stop offset="1" stop-color="#1d130e"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5"><stop offset="0" stop-color="#f0c46e" stop-opacity="0.32"/><stop offset="0.5" stop-color="#c98a3c" stop-opacity="0.08"/><stop offset="1" stop-color="#c98a3c" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.7"><stop offset="0" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.75"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M0 0h40v40H0z" fill="none" stroke="#41504d" stroke-width="1" opacity="0.1"/></pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="800" cy="360" r="520" fill="url(#glow)"/>
+  <path d="M0 0h1600v100H0z" fill="#060a0b"/>
+  <path d="M0 760h1600v140H0z" fill="#050808"/>
+  <path d="M0 0h300v900H0zM1300 0h300v900h-300z" fill="#080d0e" opacity="0.7"/>
+  <g stroke="#34413f" stroke-width="3" opacity="0.55">
+    <path d="M300 90v670M1300 90v670M300 90h1000"/>
+    <path d="M420 90v110M580 90v110M740 90v110M900 90v110M1060 90v110M1220 90v110"/>
+  </g>
+  <g>
+    <path d="M620 530h360v210H620z" fill="#1b2729" stroke="#5d6b66" stroke-width="6"/>
+    <path d="M620 530h360v36H620z" fill="#3f4c49"/>
+    <path d="M650 566h300v142H650z" fill="#10191b"/>
+    <path d="M650 566h300v14H650z" fill="#65756e" opacity="0.4"/>
+    <path d="M670 600h70v9h-70zM670 620h104v6h-104zM670 634h86v6h-86zM670 648h120v6h-120zM670 668h58v6h-58z" fill="#95a69a" opacity="0.55"/>
+    <circle cx="900" cy="646" r="38" fill="#0b1011" stroke="#7c8b83" stroke-width="4"/>
+    <circle cx="900" cy="646" r="26" fill="#1b2524"/>
+    <path d="M900 620v52M874 646h52" stroke="#d7a343" stroke-width="3" opacity="0.8"/>
+    <circle cx="900" cy="646" r="8" fill="#f0c46e"/>
+    <circle cx="900" cy="646" r="60" fill="#f0c46e" opacity="0.07"/>
+    <path d="M700 740h200l-28 90H728z" fill="#0d1516"/>
+    <path d="M744 740h112l-18 96h-76z" fill="#172120"/>
+    <path d="M680 836h240v18H680z" fill="#303b38"/>
+    <path d="M740 854v46M860 854v46" stroke="#202a28" stroke-width="14"/>
+  </g>
+  <g>
+    <path d="M760 540c-14-52-2-91 30-106 30-14 62 2 76 34 12 29 8 61-8 86l24 86H742l8-84z" fill="#1c2523"/>
+    <circle cx="812" cy="406" r="33" fill="#2d2520"/>
+    <path d="M778 396c2-27 18-45 42-45 26 0 43 18 46 44 2 22-10 39-31 45-20 6-39-2-49-19-5-9-8-17-8-25z" fill="#3b4a47"/>
+    <circle cx="798" cy="410" r="12" fill="#111a1a" stroke="#7f8c84" stroke-width="2"/>
+    <circle cx="830" cy="410" r="12" fill="#111a1a" stroke="#7f8c84" stroke-width="2"/>
+    <circle cx="798" cy="410" r="7" fill="#7e9a86"/>
+    <circle cx="830" cy="410" r="7" fill="#7e9a86"/>
+    <path d="M810 432h16v10h-16z" fill="#4b5955"/>
+    <path d="M812 444c-2 18-8 28-16 34M824 444c2 18 8 28 16 34" fill="none" stroke="#2a3533" stroke-width="5"/>
+    <path d="M760 500l-54 62 20 18 58-56M868 500l54 62-20 18-58-56" fill="#1c2523"/>
+    <path d="M706 562l-22 42 26 14 24-44zM896 562l22 42-26 14-24-44z" fill="#29332f"/>
+  </g>
+  <g>
+    <circle cx="344" cy="232" r="15" fill="#d7a343"/><circle cx="344" cy="232" r="46" fill="#f0c46e" opacity="0.08"/>
+    <circle cx="1252" cy="300" r="15" fill="#d7a343"/><circle cx="1252" cy="300" r="46" fill="#f0c46e" opacity="0.08"/>
+    <circle cx="420" cy="618" r="11" fill="#b34b36"/><circle cx="420" cy="618" r="34" fill="#b34b36" opacity="0.08"/>
+    <circle cx="1188" cy="596" r="11" fill="#b34b36"/><circle cx="1188" cy="596" r="34" fill="#b34b36" opacity="0.08"/>
+    <path d="M300 232h44M1252 300h48M420 618h60M1128 596h60" stroke="#56645f" stroke-width="3" opacity="0.6"/>
+  </g>
+  <path d="M0 840c340-20 520 8 800-6s500-10 800 8v58H0z" fill="#040707"/>
+  <rect width="1600" height="900" fill="url(#vig)"/>
+</svg>
