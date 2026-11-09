@@ -22,6 +22,7 @@ func _ready() -> void:
 	ui.setup(self)
 	ui.new_game_requested.connect(_request_new_game)
 	ui.continue_requested.connect(_on_continue)
+	ui.house_requested.connect(_on_house3d)
 	ui.quit_requested.connect(func() -> void: get_tree().quit())
 	ui.resume_requested.connect(_on_resume)
 	ui.save_requested.connect(_on_save)
@@ -79,6 +80,8 @@ func _ready() -> void:
 		add_child(load("res://dev/difficulty_test.gd").new())
 	elif _wants("--companion-test"):
 		add_child(load("res://dev/companion_test.gd").new())
+	elif _wants("--test-menu3d"):
+		add_child(load("res://dev/menu3d_test.gd").new())
 
 
 func _wants(flag: String) -> bool:
@@ -183,6 +186,20 @@ func _on_continue() -> void:
 		load_floor(Game.floor_index, true)
 	else:
 		_on_new_game()
+
+
+## Переход в отдельный 3D-режим. 2D-партия и сохранение не трогаются:
+## сцена заменяется целиком, состояние Game остаётся на месте.
+func _on_house3d() -> void:
+	get_tree().paused = false
+	Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+	if world != null and is_instance_valid(world):
+		world.queue_free()
+		world = null
+	if ui != null:
+		ui.close_modals()
+	Audio.stop_ambient(0.25)
+	get_tree().call_deferred("change_scene_to_file", "res://scenes/House3D.tscn")
 
 
 func _on_resume() -> void:

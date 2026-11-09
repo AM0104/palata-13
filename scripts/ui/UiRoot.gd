@@ -4,6 +4,7 @@ extends CanvasLayer
 
 signal new_game_requested
 signal continue_requested
+signal house_requested
 signal quit_requested
 signal resume_requested
 signal save_requested
@@ -61,6 +62,7 @@ func setup(main_ref: Node) -> void:
 	menu = MenuUi.new()
 	menu.new_game_requested.connect(func() -> void: new_game_requested.emit())
 	menu.continue_requested.connect(func() -> void: continue_requested.emit())
+	menu.house_requested.connect(func() -> void: house_requested.emit())
 	menu.quit_requested.connect(func() -> void: quit_requested.emit())
 	menu.resume_requested.connect(func() -> void: resume_requested.emit())
 	menu.save_requested.connect(func() -> void: save_requested.emit())

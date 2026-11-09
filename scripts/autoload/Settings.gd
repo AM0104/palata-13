@@ -4,13 +4,21 @@ extends Node
 
 signal volume_changed(value: float)
 signal fullscreen_changed(on: bool)
+signal mouse_sensitivity_changed(value: float)
+signal graphics_changed
 
 const CONFIG_NAME := "settings.cfg"
 const DEFAULT_VOLUME := 0.8
+const DEFAULT_SENSITIVITY := 1.0
+const MIN_SENSITIVITY := 0.3
+const MAX_SENSITIVITY := 2.5
 const SAVE_DELAY := 0.4
 
 var volume: float = DEFAULT_VOLUME
 var fullscreen: bool = false
+var mouse_sensitivity: float = DEFAULT_SENSITIVITY
+var shadows: bool = true
+var fog: bool = true
 
 var _save_timer: Timer
 
@@ -56,6 +64,29 @@ func set_volume(value: float) -> void:
 	Audio.set_master_volume(volume)
 	_save_soon()
 	volume_changed.emit(volume)
+
+
+## Чувствительность мыши в 3D-режиме. 1.0 — базовая, 0.3 — медленно, 2.5 — резко.
+func set_mouse_sensitivity(value: float) -> void:
+	mouse_sensitivity = clampf(value, MIN_SENSITIVITY, MAX_SENSITIVITY)
+	_save_soon()
+	mouse_sensitivity_changed.emit(mouse_sensitivity)
+
+
+func set_shadows(on: bool) -> void:
+	if shadows == on:
+		return
+	shadows = on
+	_save_soon()
+	graphics_changed.emit()
+
+
+func set_fog(on: bool) -> void:
+	if fog == on:
+		return
+	fog = on
+	_save_soon()
+	graphics_changed.emit()
 
 
 # --- полный экран ----------------------------------------------------------
@@ -136,12 +167,20 @@ func load_settings() -> void:
 		return
 	volume = clampf(float(cfg.get_value("audio", "volume", DEFAULT_VOLUME)), 0.0, 1.0)
 	fullscreen = bool(cfg.get_value("display", "fullscreen", false))
+	mouse_sensitivity = clampf(
+		float(cfg.get_value("input", "mouse_sensitivity", DEFAULT_SENSITIVITY)),
+		MIN_SENSITIVITY, MAX_SENSITIVITY)
+	shadows = bool(cfg.get_value("video", "shadows", true))
+	fog = bool(cfg.get_value("video", "fog", true))
 
 
 func save_settings() -> void:
 	var cfg := ConfigFile.new()
 	cfg.set_value("audio", "volume", volume)
 	cfg.set_value("display", "fullscreen", fullscreen)
+	cfg.set_value("input", "mouse_sensitivity", mouse_sensitivity)
+	cfg.set_value("video", "shadows", shadows)
+	cfg.set_value("video", "fog", fog)
 	cfg.save(config_path())
 
 

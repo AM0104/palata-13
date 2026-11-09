@@ -1,0 +1,37 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://dh4quxnsip0de"
+path="res://.godot/imported/haunted_house_7.png-c1525efb06208c21deed372e3e0274bc.ctex"
+metadata={
+"vram_texture": false
+}
+generator_parameters={
+"md5": "e89ddc6de1da90914799b77d8db7c61f"
+}
+
+[deps]
+
+source_file="res://assets/maps/haunted_house_7.png"
+dest_files=["res://.godot/imported/haunted_house_7.png-c1525efb06208c21deed372e3e0274bc.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

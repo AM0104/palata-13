@@ -4,6 +4,7 @@ extends Control
 
 signal new_game_requested
 signal continue_requested
+signal house_requested
 signal quit_requested
 signal resume_requested
 signal save_requested
@@ -53,7 +54,7 @@ func _build() -> void:
 	_title.position = Vector2(70, 62)
 	add_child(_title)
 
-	_subtitle = UiTheme.make_label("ТИХИЙ КЛИНИЧЕСКИЙ ХОРРОР · КОРПУС Б · МИША", 16, UiTheme.DIM)
+	_subtitle = UiTheme.make_label("ТИХИЙ КЛИНИЧЕСКИЙ ХОРРОР · КОРПУС Б · ОСОБНЯК В 3D", 16, UiTheme.DIM)
 	_subtitle.position = Vector2(74, 158)
 	add_child(_subtitle)
 
@@ -74,6 +75,9 @@ func _build() -> void:
 	var b_cont := UiTheme.make_button("ПРОДОЛЖИТЬ", 24)
 	b_cont.pressed.connect(func() -> void: continue_requested.emit())
 	_main_box.add_child(b_cont)
+	var b_house := UiTheme.make_button("ОСОБНЯК · 3D", 24)
+	b_house.pressed.connect(func() -> void: house_requested.emit())
+	_main_box.add_child(b_house)
 	var b_set := UiTheme.make_button("НАСТРОЙКИ", 24)
 	b_set.pressed.connect(_show_settings.bind(false))
 	_main_box.add_child(b_set)
@@ -165,7 +169,7 @@ func show_main() -> void:
 	_pause_box.visible = false
 	_settings_box.visible = false
 	_title.text = "ПАЛАТА 13"
-	_subtitle.text = "ТИХИЙ КЛИНИЧЕСКИЙ ХОРРОР · КОРПУС Б · МИША"
+	_subtitle.text = "ТИХИЙ КЛИНИЧЕСКИЙ ХОРРОР · КОРПУС Б · ОСОБНЯК В 3D"
 	_bg.texture = Art.background("menu")
 	_bg.modulate = Color(1, 1, 1, 1)
 	_status.text = ""

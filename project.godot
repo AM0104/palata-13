@@ -15,9 +15,9 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="ПАЛАТА 13"
-config/description="2D-хоррор: двенадцатилетний Миша в заброшенной психиатрической больнице «Сосновый бор». Один этаж, призраки и доктор Барский."
+config/description="Хоррор про смену, которая не вернулась: 2D-корпус «Палата 13» и 3D-особняк «Тихий Бор»."
 run/main_scene="res://scenes/Main.tscn"
-config/features=PackedStringArray("4.7", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
 [autoload]
@@ -32,6 +32,10 @@ window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
 
+[network]
+
+tls/certificate_bundle_override="res://assets/tls/ca-bundle.crt"
+
 [physics]
 
 2d/default_gravity=0.0
@@ -41,3 +45,7 @@ window/stretch/mode="canvas_items"
 textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 environment/defaults/default_clear_color=Color(0.012, 0.012, 0.016, 1)
+lights_and_shadows/directional_shadow/size=2048
+lights_and_shadows/directional_shadow/soft_shadow_filter_quality=2
+lights_and_shadows/positional_shadow/atlas_size=2048
+anti_aliasing/quality/msaa_3d=0

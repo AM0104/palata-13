@@ -278,6 +278,7 @@ func _exit_tree() -> void:
 	for p in [_ambient_a, _ambient_b]:
 		if p != null and is_instance_valid(p):
 			p.stop()
+			p.stream = null
 
 
 # ---------------------------------------------------------------------------
